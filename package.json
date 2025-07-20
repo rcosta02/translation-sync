@@ -1,0 +1,34 @@
+{
+  "name": "translation-sync",
+  "version": "1.0.0",
+  "description": "Automatically sync translation changes across multiple language files using free translation services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "translation",
+    "i18n",
+    "internationalization",
+    "localization",
+    "sync",
+    "automatic",
+    "multilingual"
+  ],
+  "author": "Rafael Costa",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcosta02/translation-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rcosta02/translation-sync/issues"
+  },
+  "homepage": "https://github.com/rcosta02/translation-sync#readme"
+}
