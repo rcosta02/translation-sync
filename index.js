@@ -276,6 +276,14 @@ class TranslationSync {
       await this.processFileChange(filePath);
     }
 
+    // Delete the .translation-hashes.json file
+    try {
+      await fs.unlink(this.hashFile);
+      this.log(`🗑️ Deleted hash file: ${this.hashFile}`);
+    } catch (error) {
+      this.log(`⚠️ Could not delete hash file: ${error.message}`);
+    }
+
     this.log("✅ Check complete");
   }
 }
